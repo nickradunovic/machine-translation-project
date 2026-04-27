@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use these reproducibility materials, please cite the archived Zenodo release."
-title: "Reproducibility materials for: A Two-Track Evaluation of LLM and NMT Translation for Multilingual Pension Communication"
+title: "Reproducibility materials for: A Two-Track Evaluation of LLM and NMT Translation for Regulated Pension Communication"
 type: software
 authors:
   - family-names: Radunovic

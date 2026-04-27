@@ -9,7 +9,8 @@ version: "1.0.0"
 date-released: "2026-04-27"
 license: MIT
 repository-code: "https://github.com/nickradunovic/machine-translation-project"
-url: "https://github.com/nickradunovic/machine-translation-project"
+doi: "10.5281/zenodo.19821399"
+url: "https://doi.org/10.5281/zenodo.19821399"
 keywords:
   - machine translation
   - large language models

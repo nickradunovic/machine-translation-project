@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{6pt}
+\caption{Agreement between GPT-4 (judge) and native-speaker evaluators on reference-free rubric scores, pooling all language--excerpt--system items ($n=84$). We report Spearman's $\rho$ and a least-squares fit $y = a + b x$ (where $x$ is native-speaker score and $y$ is judge score).}
+\label{tab:ref-free-judge-human-agreement}
+\begin{tabular}{@{}l c c c c@{}}
+\toprule
+Metric & Spearman $\rho$ & Slope $b$ & Intercept $a$ & $N$ \\
+\midrule
+Correctheid & 0.48 & 0.69 & 2.70 & 84 \\
+Toon en stijl & 0.57 & 0.52 & 3.40 & 84 \\
+Leesbaarheid & 0.40 & 0.57 & 3.57 & 84 \\
+Overall & 0.53 & 0.71 & 2.45 & 84 \\
+\bottomrule
+\end{tabular}
+\end{table}

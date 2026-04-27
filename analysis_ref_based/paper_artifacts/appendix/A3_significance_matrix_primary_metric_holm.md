@@ -1,0 +1,11 @@
+| index | azure-translator | deepl | gemini-3-pro | google-translate | gpt-4 | gpt-5-2 | llama-3-3-70b-instruct | meta-llama-3-1-405b-instruct | meta-llama-3-1-8b-instruct |
+|---|---|---|---|---|---|---|---|---|---|
+| azure-translator | — | · | · | · | · | · | · | · | · |
+| deepl | · | — | · | · | · | · | · | · | · |
+| gemini-3-pro | · | · | — | · | · | · | · | · | · |
+| google-translate | · | · | · | — | · | · | · | · | · |
+| gpt-4 | · | · | · | · | — | · | · | · | · |
+| gpt-5-2 | · | · | · | · | · | — | · | · | · |
+| llama-3-3-70b-instruct | · | · | · | · | · | · | — | · | · |
+| meta-llama-3-1-405b-instruct | · | · | · | · | · | · | · | — | · |
+| meta-llama-3-1-8b-instruct | · | · | · | · | · | · | · | · | — |

@@ -1,0 +1,42 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{5pt}
+\caption{Per-language paired deltas (GPT-4 minus Azure) computed from native-speaker scores vs GPT-4 (judge) scores (reference-free track). Each delta is paired by excerpt; confidence intervals are bootstrap 95\% CIs over excerpts; $p$ values are exact sign-flip tests over excerpt-level deltas.}
+\label{tab:ref-free-deltas-by-language-human-vs-judge}
+\begin{tabular}{@{}l l c c c c c c@{}}
+\toprule
+Language & Metric & $\Delta$ Human & 95\% CI & $p$ & $\Delta$ Judge & 95\% CI & $p$ \\
+\midrule
+Arabic & Correctheid & 2.08 & [1.25, 3.00] & 0.031$^{**}$ & 2.00 & [0.67, 3.67] & 0.125 \\
+Arabic & Toon en stijl & 1.58 & [0.58, 2.42] & 0.062$^{*}$ & 2.00 & [0.67, 3.67] & 0.125 \\
+Arabic & Leesbaarheid & 1.83 & [1.25, 2.42] & 0.031$^{**}$ & 2.17 & [0.67, 3.83] & 0.125 \\
+Arabic & Overall & 1.83 & [1.11, 2.56] & 0.031$^{**}$ & 2.06 & [0.67, 3.72] & 0.125 \\
+English & Correctheid & 0.67 & [-0.17, 1.33] & 0.312 & 0.33 & [0.00, 0.67] & 0.500 \\
+English & Toon en stijl & 0.00 & [-0.67, 0.67] & 1.000 & 0.67 & [0.33, 1.00] & 0.125 \\
+English & Leesbaarheid & 0.67 & [-0.17, 1.33] & 0.312 & 0.00 & [-0.50, 0.50] & 1.000 \\
+English & Overall & 0.44 & [-0.11, 1.06] & 0.312 & 0.33 & [0.00, 0.61] & 0.188 \\
+German & Correctheid & 2.92 & [2.75, 3.00] & 0.031$^{**}$ & 2.67 & [1.33, 3.83] & 0.062$^{*}$ \\
+German & Toon en stijl & 2.25 & [2.00, 2.58] & 0.031$^{**}$ & 3.00 & [2.00, 4.00] & 0.031$^{**}$ \\
+German & Leesbaarheid & 2.17 & [1.67, 2.67] & 0.031$^{**}$ & 1.83 & [0.83, 2.83] & 0.062$^{*}$ \\
+German & Overall & 2.44 & [2.22, 2.72] & 0.031$^{**}$ & 2.50 & [1.44, 3.56] & 0.031$^{**}$ \\
+Polish & Correctheid & 1.33 & [0.67, 2.00] & 0.031$^{**}$ & 1.67 & [-0.33, 3.50] & 0.250 \\
+Polish & Toon en stijl & 2.33 & [1.17, 3.42] & 0.062$^{*}$ & 2.17 & [1.00, 3.33] & 0.125 \\
+Polish & Leesbaarheid & 1.33 & [0.58, 2.08] & 0.062$^{*}$ & 1.50 & [0.17, 2.67] & 0.125 \\
+Polish & Overall & 1.67 & [0.94, 2.44] & 0.031$^{**}$ & 1.78 & [0.33, 3.00] & 0.094$^{*}$ \\
+Spanish & Correctheid & 2.00 & [1.00, 2.83] & 0.062$^{*}$ & 2.17 & [1.17, 2.83] & 0.062$^{*}$ \\
+Spanish & Toon en stijl & 5.83 & [5.50, 6.00] & 0.031$^{**}$ & 2.00 & [1.00, 2.83] & 0.062$^{*}$ \\
+Spanish & Leesbaarheid & 1.50 & [0.17, 2.67] & 0.125 & 2.00 & [1.50, 2.50] & 0.031$^{**}$ \\
+Spanish & Overall & 3.11 & [2.44, 3.72] & 0.031$^{**}$ & 2.06 & [1.33, 2.61] & 0.031$^{**}$ \\
+Turkish & Correctheid & 2.72 & [2.17, 3.28] & 0.031$^{**}$ & 2.67 & [1.50, 4.17] & 0.031$^{**}$ \\
+Turkish & Toon en stijl & 3.11 & [2.67, 3.44] & 0.031$^{**}$ & 2.67 & [1.67, 4.17] & 0.031$^{**}$ \\
+Turkish & Leesbaarheid & 3.39 & [2.89, 3.83] & 0.031$^{**}$ & 1.50 & [0.50, 2.67] & 0.125 \\
+Turkish & Overall & 3.07 & [2.61, 3.43] & 0.031$^{**}$ & 2.28 & [1.28, 3.56] & 0.031$^{**}$ \\
+Ukrainian & Correctheid & 1.58 & [1.00, 2.08] & 0.031$^{**}$ & 2.67 & [1.67, 3.83] & 0.031$^{**}$ \\
+Ukrainian & Toon en stijl & 0.83 & [0.42, 1.17] & 0.062$^{*}$ & 2.83 & [1.33, 4.50] & 0.031$^{**}$ \\
+Ukrainian & Leesbaarheid & 1.50 & [0.75, 2.25] & 0.062$^{*}$ & 2.33 & [1.17, 3.67] & 0.031$^{**}$ \\
+Ukrainian & Overall & 1.31 & [0.78, 1.75] & 0.031$^{**}$ & 2.61 & [1.39, 3.89] & 0.031$^{**}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{6pt}
+\caption{Average rubric scores aggregated across languages and excerpts (reference-free track). ``Native speaker'' denotes the native-speaker evaluators; ``GPT-4 (judge)'' denotes the rubric-based LLM-as-a-judge. We additionally report an Overall score (mean of Correctheid, Toon en stijl, and Leesbaarheid).}
+\label{tab:ref-free-avg-scores}
+\begin{tabular}{@{}l l c c c c@{}}
+\toprule
+System & Evaluator & Correctheid & Toon en stijl & Leesbaarheid & Overall \\
+\midrule
+Azure Translator & Native speaker & 6.0 & 5.7 & 6.1 & 5.9 \\
+Azure Translator & GPT-4 (judge) & 6.5 & 5.9 & 6.8 & 6.4 \\
+GPT-4 (translator) & Native speaker & 7.9 & 8.0 & 7.9 & 7.9 \\
+GPT-4 (translator) & GPT-4 (judge) & 8.5 & 8.0 & 8.4 & 8.3 \\
+\bottomrule
+\end{tabular}
+\end{table}

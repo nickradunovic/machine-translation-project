@@ -1,0 +1,49 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{6pt}
+\caption{Per-language paired deltas (GPT-4 minus Azure) for the reference-free track, using excerpt-level means (6 excerpts per language). Confidence intervals are bootstrap 95\% CIs over excerpts; $p$ values are from an exact sign-flip permutation test over excerpt-level deltas.}
+\label{tab:ref-free-deltas-by-language}
+\begin{tabular}{@{}l c c c c c@{}}
+\toprule
+Language & Metric & Mean $\Delta$ & 95\% CI & $p$ (sign-flip) & $N_{\text{doc}}$ \\
+\midrule
+German & Correctheid & 2.67 & [1.33, 3.83] & 0.062$^{*}$ & 6 \\
+German & Toon en stijl & 3.00 & [2.00, 4.00] & 0.031$^{**}$ & 6 \\
+German & Leesbaarheid & 1.83 & [0.83, 2.83] & 0.062$^{*}$ & 6 \\
+German & Overall & 2.50 & [1.44, 3.56] & 0.031$^{**}$ & 6 \\
+\addlinespace[2pt]
+Turkish & Correctheid & 2.67 & [1.50, 4.17] & 0.031$^{**}$ & 6 \\
+Turkish & Toon en stijl & 2.67 & [1.67, 4.17] & 0.031$^{**}$ & 6 \\
+Turkish & Leesbaarheid & 1.50 & [0.50, 2.67] & 0.125 & 6 \\
+Turkish & Overall & 2.28 & [1.28, 3.61] & 0.031$^{**}$ & 6 \\
+\addlinespace[2pt]
+English & Correctheid & 0.33 & [0.00, 0.67] & 0.500 & 6 \\
+English & Toon en stijl & 0.67 & [0.33, 1.00] & 0.125 & 6 \\
+English & Leesbaarheid & 0.00 & [-0.50, 0.50] & 1.000 & 6 \\
+English & Overall & 0.33 & [0.00, 0.61] & 0.188 & 6 \\
+\addlinespace[2pt]
+Polish & Correctheid & 1.67 & [-0.33, 3.33] & 0.250 & 6 \\
+Polish & Toon en stijl & 2.17 & [1.00, 3.33] & 0.125 & 6 \\
+Polish & Leesbaarheid & 1.50 & [0.17, 2.67] & 0.125 & 6 \\
+Polish & Overall & 1.78 & [0.33, 3.00] & 0.094$^{*}$ & 6 \\
+\addlinespace[2pt]
+Spanish & Correctheid & 2.17 & [1.17, 2.83] & 0.062$^{*}$ & 6 \\
+Spanish & Toon en stijl & 2.00 & [1.00, 2.83] & 0.062$^{*}$ & 6 \\
+Spanish & Leesbaarheid & 2.00 & [1.50, 2.50] & 0.031$^{**}$ & 6 \\
+Spanish & Overall & 2.06 & [1.28, 2.61] & 0.031$^{**}$ & 6 \\
+\addlinespace[2pt]
+Arabic & Correctheid & 2.00 & [0.67, 3.67] & 0.125 & 6 \\
+Arabic & Toon en stijl & 2.00 & [0.67, 3.67] & 0.125 & 6 \\
+Arabic & Leesbaarheid & 2.17 & [0.67, 3.83] & 0.125 & 6 \\
+Arabic & Overall & 2.06 & [0.67, 3.72] & 0.125 & 6 \\
+\addlinespace[2pt]
+Ukrainian & Correctheid & 2.67 & [1.67, 3.83] & 0.031$^{**}$ & 6 \\
+Ukrainian & Toon en stijl & 2.83 & [1.33, 4.50] & 0.031$^{**}$ & 6 \\
+Ukrainian & Leesbaarheid & 2.33 & [1.17, 3.67] & 0.031$^{**}$ & 6 \\
+Ukrainian & Overall & 2.61 & [1.39, 3.89] & 0.031$^{**}$ & 6 \\
+\addlinespace[2pt]
+\bottomrule
+\end{tabular}
+\end{table}

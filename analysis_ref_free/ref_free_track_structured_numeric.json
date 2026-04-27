@@ -1,0 +1,2371 @@
+{
+  "schema_version": "1.0",
+  "criteria": [
+    "meaning",
+    "tone",
+    "readability"
+  ],
+  "scale": {
+    "min": 0,
+    "max": 10
+  },
+  "docs_per_language_expected": 6,
+  "notes": [
+    "This structured dataset stores numeric rubric scores only. Free-text comments/terminology notes were not embedded due to their length in the chat transcript.",
+    "German / human_1 appears to contain only 2 evaluated documents in the provided text; kept as-is.",
+    "Judge duplicate-sequence check is included to catch copy/paste issues."
+  ],
+  "data": {
+    "judge": [
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 4,
+        "tone": 3,
+        "readability": 3
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 6,
+        "tone": 4,
+        "readability": 5
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 3,
+        "tone": 2,
+        "readability": 4
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 4,
+        "tone": 4,
+        "readability": 5
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 3,
+        "tone": 2,
+        "readability": 3
+      },
+      {
+        "source": "judge",
+        "language": "Turkish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 6,
+        "tone": 5,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 4,
+        "tone": 5,
+        "readability": 6
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 6,
+        "tone": 5,
+        "readability": 6
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 4,
+        "tone": 5,
+        "readability": 5
+      },
+      {
+        "source": "judge",
+        "language": "Spanish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 10
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 10
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 10
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "English",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 6,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 6,
+        "tone": 5,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 6,
+        "tone": 5,
+        "readability": 6
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 4,
+        "tone": 5,
+        "readability": 5
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 4,
+        "tone": 3,
+        "readability": 5
+      },
+      {
+        "source": "judge",
+        "language": "Polish",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 8,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 3,
+        "tone": 3,
+        "readability": 3
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 3,
+        "tone": 2,
+        "readability": 3
+      },
+      {
+        "source": "judge",
+        "language": "Ukrainian",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 3,
+        "tone": 2,
+        "readability": 2
+      },
+      {
+        "source": "judge",
+        "language": "Arabic",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 8
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 6,
+        "tone": 5,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 4,
+        "tone": 3,
+        "readability": 5
+      },
+      {
+        "source": "judge",
+        "language": "German",
+        "evaluator_id": "gpt4_judge",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 9
+      }
+    ],
+    "human": [
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 4,
+        "tone": 5,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 4,
+        "tone": 4,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 4,
+        "tone": 4,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 3,
+        "tone": 2,
+        "readability": 2
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 4,
+        "tone": 3,
+        "readability": 2
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 5,
+        "tone": 5,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 3,
+        "tone": 4,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 4,
+        "tone": 4,
+        "readability": 3
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 5,
+        "tone": 5,
+        "readability": 3
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 7,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 7,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 5,
+        "tone": 4,
+        "readability": 3
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 6,
+        "tone": 5,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 5,
+        "tone": 4,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Turkish",
+        "evaluator_id": "human_3",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 5,
+        "tone": 4,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 6,
+        "tone": 9,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 9,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 6,
+        "tone": 8,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 6,
+        "tone": 3,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 6,
+        "tone": 3,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 3,
+        "tone": 3,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 7,
+        "tone": 3,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 7,
+        "tone": 3,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Spanish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 6,
+        "tone": 3,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 7,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 6,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "English",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 10
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 8,
+        "tone": 6,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 10,
+        "readability": 10
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 6,
+        "readability": 10
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 10,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 8,
+        "tone": 6,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 7,
+        "tone": 4,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 8,
+        "tone": 4,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 6,
+        "tone": 4,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 6,
+        "tone": 4,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 4,
+        "tone": 4,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 3,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 6,
+        "tone": 4,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 3,
+        "tone": 4,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 5,
+        "tone": 5,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 5,
+        "tone": 5,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 5,
+        "tone": 5,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 7,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 5,
+        "tone": 5,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Polish",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 5,
+        "tone": 5,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 7,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 7,
+        "tone": 7,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 8,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 9,
+        "tone": 10,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 6,
+        "tone": 8,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 5,
+        "tone": 7,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 4,
+        "tone": 7,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 6,
+        "tone": 8,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Ukrainian",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 5,
+        "tone": 7,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 10,
+        "tone": 10,
+        "readability": 10
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 3,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 7,
+        "tone": 7,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 7,
+        "tone": 7,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 8,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 8,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 4,
+        "tone": 4,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 3,
+        "tone": 3,
+        "readability": 3
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 5,
+        "tone": 6,
+        "readability": 6
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 5,
+        "tone": 3,
+        "readability": 3
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "Arabic",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 4,
+        "tone": 4,
+        "readability": 4
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_1",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 10,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_1",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 5,
+        "tone": 6,
+        "readability": 5
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc1",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc2",
+        "meaning": 8,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc3",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc4",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc5",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "gpt4",
+        "doc_id": "doc6",
+        "meaning": 9,
+        "tone": 9,
+        "readability": 9
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc1",
+        "meaning": 8,
+        "tone": 7,
+        "readability": 8
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc2",
+        "meaning": 7,
+        "tone": 8,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc3",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc4",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc5",
+        "meaning": 6,
+        "tone": 7,
+        "readability": 7
+      },
+      {
+        "source": "human",
+        "language": "German",
+        "evaluator_id": "human_2",
+        "system": "azure",
+        "doc_id": "doc6",
+        "meaning": 6,
+        "tone": 6,
+        "readability": 6
+      }
+    ]
+  },
+  "sanity": {
+    "judge_rows": 84,
+    "judge_expected_84": true,
+    "judge_duplicate_sequences": [
+      {
+        "lang1": "Polish",
+        "sys1": "gpt4",
+        "lang2": "Turkish",
+        "sys2": "azure"
+      }
+    ],
+    "human_blocks_not_6_docs": [
+      {
+        "language": "German",
+        "evaluator": "human_1",
+        "system": "azure",
+        "n_docs": 2
+      },
+      {
+        "language": "German",
+        "evaluator": "human_1",
+        "system": "gpt4",
+        "n_docs": 2
+      }
+    ],
+    "human_rows": 148
+  }
+}

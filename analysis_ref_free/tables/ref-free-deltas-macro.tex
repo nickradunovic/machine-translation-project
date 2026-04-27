@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{6pt}
+\caption{Macro-averaged paired deltas (GPT-4 minus Azure) over languages for the reference-free track, using native-speaker excerpt-level means (6 excerpts per language). Confidence intervals are bootstrap 95\% CIs over languages; $p$ values are from an exact sign-flip permutation test over language-level deltas.}
+\label{tab:ref-free-deltas-macro}
+\begin{tabular}{@{}l c c c c c@{}}
+\toprule
+Metric & Mean $\Delta$ & 95\% CI & $p$ (sign-flip) & Cohen's $d_z$ & $N_{\text{lang}}$ \\
+\midrule
+Correctheid & 1.90 & [1.37, 2.42] & 0.016$^{**}$ & 2.42 & 7 \\
+Toon en stijl & 2.28 & [1.12, 3.62] & 0.031$^{**}$ & 1.21 & 7 \\
+Leesbaarheid & 1.77 & [1.24, 2.40] & 0.016$^{**}$ & 2.08 & 7 \\
+Overall & 1.98 & [1.31, 2.64] & 0.016$^{**}$ & 2.05 & 7 \\
+\bottomrule
+\end{tabular}
+\end{table}

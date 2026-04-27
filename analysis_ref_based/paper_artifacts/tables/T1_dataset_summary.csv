@@ -1,0 +1,9 @@
+language,n_segments,ref_chars_total,n_models
+turkish,5,1358.0,9
+spanish,5,1425.0,9
+english,5,1491.0,9
+polish,5,1467.0,9
+ukrainian,5,1742.0,9
+arabic,5,1397.0,9
+german,5,1390.0,9
+ALL,35,10270.0,9
